@@ -70,7 +70,7 @@ var text = "Tags : <a href='https://www.mrlaboratory.com' target='_blank'>MR Lab
 var x = 1;
 for (var i = 0; i < len; i++) {
   y = x+i;
-  text +=y+"�𤄄<a href='https://youtube.mrlaboratory.info/search/label/' target='_blank'"+tag[i]+">"+tag[i]+"</a><br/>";
+  text +=y+">><a href='https://youtube.mrlaboratory.info/search/label/' target='_blank'"+tag[i]+">"+tag[i]+"</a><br/>";
 }
 $(".mrVideotags").html(text);
 
